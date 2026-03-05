@@ -1,4 +1,4 @@
-herimport os, time, datetime, random
+import os, time, datetime, random
 from flask import Flask, render_template_string, request, session, redirect
 
 app = Flask(__name__)
